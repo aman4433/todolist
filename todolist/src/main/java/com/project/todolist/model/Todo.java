@@ -1,11 +1,12 @@
 package com.project.todolist.model;
+
 import java.util.Date;
 
-public class Todo {
+//import javax.validation.constraints.Size;
 
-	private int id;
-    
-	private String user;
+public class Todo {
+    private int id;
+    private String user;
     
     //@Size(min=10, message="Enter at least 10 Characters...")
     private String desc;
@@ -100,6 +101,5 @@ public class Todo {
                 user, desc, targetDate, isDone);
     }
 
+
 }
-
-
